@@ -1,3 +1,3 @@
-import { createContext } from "react";
+import { createContext } from "react"
 
-export const ShoppingCardContext = createContext({ items: [], addItemToCard: () => {} });
+export const ShoppingCartContext = createContext({ items: [], addItemToCart: () => {} })
